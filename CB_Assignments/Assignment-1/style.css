@@ -1,0 +1,18 @@
+body{
+    background-image: url(./images/home-background.jpg);
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    flex-flow: column;
+    justify-content: center;
+    width: 300px;
+    margin-left:750px;
+    margin-top: 250px;
+}
+h1{
+    color: black;
+}

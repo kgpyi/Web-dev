@@ -1,0 +1,59 @@
+body{
+    background-image: url(../images/star-background.jpg);
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+h1{
+    color: #FECD42;
+}
+.container1, .container2{
+ display: flex;
+ padding: 10px;
+ flex-flow: column nowrap;
+ background-color: white;
+ }
+
+.container1{
+    width: fit-content;
+    margin-left:200px;
+}
+
+.container2{
+   margin-top: 20px;
+    margin-left: 325px;
+    width: fit-content;
+}
+
+h1{
+    text-align: center;
+}
+
+td{
+    width: 4vw;
+    text-align: center;
+}
+
+
+.footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content:center;
+    
+}
+
+.footer div span{
+    display: flex;
+    justify-content: center;
+	font-size: 15px;
+    color: #FECD42;
+    font-weight: bold;
+	opacity: 0;
+    
+}
+
+figure:hover+span {
+	opacity: 1;
+    
+}

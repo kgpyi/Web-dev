@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <link rel="shortcut icon" href="../images/biodata-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Bio Data</h1>
+        <form action="#" method ="GET">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="first-name">First Name:</label>
+                <input type ="text" id="first-name" name="first-name" required>
+                &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="last-name">Last Name:</label>
+                <input type ="text" id="last-name" name="last-name" required>
+                <br><br>
+                <span>Gender:</span>
+                <input type="radio" name ="gender" id="male" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female" required>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="other" value="other" required>
+                <label for="other">Other</label>
+                <br><br>
+                <label for="date">Date of Birth:</label>
+                <input type="date" id="date" name="date" required>
+                <br><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="Enter Your Email" name="email" required>
+                <br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" placeholder="+91" name="phone" required>
+                <br><br>
+                <label for="height">Height</label>
+                <input type="number" id ="height" placeholder="Height in Feet" name="height" step="0.01" required>
+            </fieldset>
+             <br><br><br>
+            <fieldset>
+                <legend>Education</legend>
+                <label for="school-name">School Name:</label>
+                <input type="text" id="school-name" placeholder="School Name">
+                <br>
+                <br>
+                <label for="class">Class:</label>
+                <input type="text" id="class" placeholder="Enter Class">
+                <br><br>
+                <label for="stream">Stream:</label>
+                <select name="stream" id="stream"> 
+                    <option value="Chemical">Chemical</option>         
+                    <option value="Computer">Computer</option>         
+                    <option value="Civil">Civil</option>         
+                    <option value="Electrical">Electrical</option>         
+                </select>
+                <br><br>
+                <label for="marksheet">Marksheet:</label>
+                <input type="file">
+            </fieldset>
+        <div class="last-buttons">
+            <p><input type="submit" >
+                <input type="reset"></p>
+        </div>
+        </form>
+
+        <div class="footer">
+            <div>
+                <figure><a href="../index.html"><img class="home" src="../images/home-favicon.png" alt="" width="50"></a></figure>
+                <span>Home</span>
+            </div>
+            <div>
+                <figure><a href="../schoolTimeTable/index.html"><img class="time-table" src="../images/ttable-favicon.png" alt="" width="50"></a></figure>
+                <span>Time table</span>
+            </div>
+    
+            <div>
+                <figure><a href="../periodicTable/index.html"><img src="../images/ptable-favicon.png" alt="" class="p-table" width="50"></a></figure>
+                <span>P-table</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

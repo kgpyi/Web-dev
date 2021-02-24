@@ -1,0 +1,45 @@
+body{
+    background-image: url(../images/grey-background.jpg);
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    
+    
+}
+
+
+
+legend{
+    color:wheat;
+    font-weight: bold;
+}
+
+.last-buttons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content:center;
+    
+}
+
+.footer div span{
+    display: flex;
+    justify-content: center;
+	font-size: 15px;
+    font-weight: bold;
+	opacity: 0;
+}
+
+figure:hover+span {
+	opacity: 1;
+    
+}
