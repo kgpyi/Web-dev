@@ -1,0 +1,44 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    font-weight: 900;
+   
+}
+
+span{
+    
+    font-size: 20px;
+}
+  dl div {
+    background: bisque;
+    padding: 30px;
+  }
+  
+  dt {
+    background:black;
+    color: white;
+    font-size: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    padding: 5px;
+  }
+  
+  dd {
+    font-size: 25px;
+    margin: 0;
+    padding: 20px 0 0 12px;
+   
+  }
+  
+
